@@ -1,0 +1,90 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 55px;
+}
+
+.nav > img {
+    padding-right: 7px;
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.nav > h1 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.locations {
+    padding-top: 45px;
+    width: 550px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    padding-bottom: 36px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.location--details {
+    display: flex;
+    flex-direction: column;
+}
+
+.location--image {
+    padding-right: 19px;
+}
+
+.location--image > img {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.location--pin {
+    padding-right: 4px;
+}
+
+.location--country {
+    font-variant: small-caps;
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 12px;
+}
+
+.location--google-maps > a,
+.location--google-maps > a:hover,
+.location--google-maps > a:visited {
+    font-weight: 400;
+    font-size: 14px;
+    color: #918E9B;
+}
+
+.location--title {
+    padding-top: 7px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.location--dates {
+    padding-top: 7px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.location--description {
+    font-weight: 400;
+    font-size: 12px;
+}
