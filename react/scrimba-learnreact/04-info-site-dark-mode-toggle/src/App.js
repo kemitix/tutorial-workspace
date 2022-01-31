@@ -5,7 +5,7 @@ export default function App() {
     return (
         <div className="container">
             <Navbar />
-            <Main darkMode="dark" />
+            <Main darkMode={true" />
         </div>
     )
 }
