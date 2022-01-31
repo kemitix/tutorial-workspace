@@ -1,4 +1,5 @@
 export default function Navbar(props) {
+    cons
     return (
          <nav 
             className={props.darkMode ? "dark": ""}
