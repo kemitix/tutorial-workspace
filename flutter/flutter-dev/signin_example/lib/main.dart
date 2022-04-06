@@ -41,6 +41,9 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Sign out'),
+      ),
       body: Center(
         child: Text('Welcome!', style: Theme.of(context).textTheme.headline2),
       ),
@@ -128,7 +131,7 @@ class _SignUpFormState extends State<SignUpForm> {
                     : Colors.blue;
               }),
             ),
-            onPressed: _formProgress == 1 ?  _showWelcomeScreen : null,
+            onPressed: _formProgress == 1 ? _showWelcomeScreen : null,
             child: const Text('Sign up'),
           ),
         ],
