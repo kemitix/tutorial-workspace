@@ -93,7 +93,10 @@ class _SignUpFormState extends State<SignUpForm> {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          LinearProgressIndicator(value: _formProgress),
+          LinearProgressIndicator(
+            value: _formProgress,
+            color: _formProgress == 1 ? Colors.green : Colors.blue,
+          ),
           Text('Sign up', style: Theme.of(context).textTheme.headline4),
           Padding(
             padding: const EdgeInsets.all(8.0),
